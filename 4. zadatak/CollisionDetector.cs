@@ -43,7 +43,6 @@ namespace _4.zadatak
                 Wall topWall = (Wall) b;
                 if (Math.Abs(topWall.Y - ball.Y) < 4f) return true;
             }
-            
             return false; 
         }
     }
